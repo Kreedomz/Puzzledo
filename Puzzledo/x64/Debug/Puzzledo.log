@@ -1,3 +1,4 @@
 ﻿  main.cpp
 C:\Users\Kreedomz\Desktop\c++\Puzzledo\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+C:\Users\Kreedomz\Desktop\c++\Puzzledo\Puzzledo\main.cpp(13,21): warning C4244: 'initializing': conversion from 'int32_t' to 'float', possible loss of data
   Puzzledo.vcxproj -> C:\Users\Kreedomz\Desktop\c++\Puzzledo\x64\Debug\Puzzledo.exe
