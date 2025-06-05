@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Kreedomz\Desktop\c++\Puzzledo\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  Puzzledo.vcxproj -> C:\Users\Kreedomz\Desktop\c++\Puzzledo\x64\Debug\Puzzledo.exe
