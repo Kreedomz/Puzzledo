@@ -1,7 +1,19 @@
 #include "Player.h"
 
-void Player::HandleMovement(sf::Vector2f dir, float deltaTime)
+void Player::HandleMovement(const sf::Vector2f& dir, const float deltaTime)
 {
-	sf::Vector2f newPosition = renderShape.getPosition() * dir;
-	renderShape.setPosition(renderShape.getPosition() + );
+
+	//clock.restart();
+
+
+
+	
+	sf::Vector2f oldPosition = _renderShape.getPosition();
+	sf::Vector2f newPosition = dir * _movementSpeed * deltaTime;
+
+	_renderShape.setPosition(oldPosition + newPosition);
+
+	std::cout << "Delta Time: " << deltaTime << std::endl;
+
+	//clock.restart(); // Reset deltaTime to 0.0f
 }

@@ -7,10 +7,16 @@
 
 Entity::Entity(const float shapeRadius, const size_t pointCount, const sf::Color renderColor)
 {
-	renderShape = sf::CircleShape(shapeRadius, pointCount);
-	renderShape.setFillColor(renderColor);
+	_renderShape = sf::CircleShape(shapeRadius, pointCount);
+	_renderShape.setFillColor(renderColor);
 }
 
 Entity::~Entity()
 {
+	
+}
+
+void Entity::RenderEntity(sf::RenderWindow& renderWindow)
+{
+	renderWindow.draw(_renderShape);
 }
